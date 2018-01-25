@@ -1,0 +1,138 @@
+@import url(reset.css);
+
+
+h1{
+	color: black;
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 30px;
+}
+legend{
+	color: black;
+	font-family: 'Spectral SC', serif;
+	font-size: 30px;
+}
+
+header, footer{
+	font-family: 'Spectral SC', serif;
+}
+
+main, .copyR{
+	font-family: 'Roboto', sans-serif;
+}
+
+#tel, main, .nav2{
+	background-color:white;
+}	
+/*.wrapper{
+	width: 900px;
+	margin: 0 auto;
+}*/
+
+.nav1{
+	width: 150px;
+	margin: -900px auto auto 0px;
+	color: black;
+	line-height: 20.5px;
+}
+
+/*.nav1 li{
+	display: inline;
+}*/
+
+.nav1{
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	margin-top: 5%;
+	margin-bottom: 5px;
+	margin-top: -30px;
+	margin-left: 55px;
+}
+
+.nav1 a{
+	color: black;
+	text-decoration: none;
+	margin-right: 0;
+}
+
+.nav1 a:hover{
+	text-decoration: underline;
+}
+
+
+.nav2 a{
+	color: black;
+	text-decoration: none;
+	margin-right: 0;
+}
+
+.nav2 a:hover{
+	text-decoration: underline;
+}
+.nav2 li{
+		display: inline;
+		text-align: center;
+		
+}
+
+.logotip{
+	text-align: center;
+}
+
+.tel{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	width: 20px;
+}
+
+.fotorama{
+	width: 1000px;
+	height: 645px;
+	margin-left: auto;
+	margin-right: 25px;
+	margin-top: -85px;
+	margin-bottom: 100px;
+	
+}
+
+.iris, .pion, .animon{
+	width: 300px;
+	display: inline;
+}
+
+.vk, .tw, .inst{
+	width: 40px;
+	height: 40px;
+	padding-right:20px;
+}
+.a, .b, .c, .d, .e, .f{
+	margin-left: 800px;
+	width: 400px;
+	height: auto;
+	margin-top: 20px;
+	
+}
+.d{
+	margin-bottom: 50px;
+}
+
+.e{
+	margin-top: -310px;
+	margin-bottom: 100px;
+}
+
+.f{
+	margin-top: -510px;
+	margin-bottom: 100px;
+}
+
+fieldset{
+	width: 400px;
+	height: 500px;
+	outline: 2px solid #000; /* Чёрная рамка */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
+   }
+}
